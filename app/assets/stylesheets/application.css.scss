@@ -16,3 +16,19 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.home-banner {
+  color: white;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00c6ff , #0072ff);
+}
+
+.home-footer {
+  color: blue;
+  padding-top: 100px;
+}
