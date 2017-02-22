@@ -1,17 +1,63 @@
-$navbar-default-bg: #FF5B7E;
+$navbar-default-bg: #e861a3;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
+// Navbar styles
 #logo {
-    float: left;
-    font-size: 1.7em;
-    color: #fff;
-    letter-spacing: -1px;
-    font-weight: bold;
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
 
 #logo:hover {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+// Jumbotron styles
+.jumbotron {
+  background-image: asset-url('rain-city-wallpapers-background-2.jpg');
+  background-size: cover;
+  height: 600px;
+  h1 {
+    color: #e861a3;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-weight: bold;
+  }
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: #e861a3;
+}
+
+.btn-xlarge:hover
+{
+background-color:#a51858;
+}
+
+// Footer Styles
+.footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid grey;
+  a:hover {
+    color: #a51858;
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+  }
+  ul li {
+    float: left;
+    margin-left: 15px;
+  }
 }
