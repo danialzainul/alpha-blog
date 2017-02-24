@@ -45,7 +45,7 @@ background-color:#a51858;
 .footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid grey;
+  border-top: 1px solid #cecece;
   a:hover {
     color: #a51858;
   }
@@ -60,4 +60,15 @@ background-color:#a51858;
     float: left;
     margin-left: 15px;
   }
+}
+
+// Article Show Styles
+.article-actions {
+  border-top: 1px solid #cecece;
+  padding-top: 8px;
+}
+
+.description {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
