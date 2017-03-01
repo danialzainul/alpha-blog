@@ -26,8 +26,8 @@ gem 'bcrypt', '3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 # Use pagination to create pages for views
-gem 'will_paginate', '3.0.7'
-gem 'bootstrap-will_paginate', '0.0.10'
+gem 'will_paginate', '3.1.0'
+gem 'bootstrap-will_paginate'
 
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
