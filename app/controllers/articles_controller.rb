@@ -53,8 +53,9 @@ class ArticlesController < ApplicationController
     end
     
     def require_same_user
-      # if current_user is NOT the user who created the article
-      if current_user != @article.user
+      # if current_user is NOT the user who created the article,
+      # if curret_user is NOT an admin
+      if current_user != @article.user and !current_user.admin?
         flash[:danger] = "You can only edit/delete your own articles"
         redirect_to root_path
       end
