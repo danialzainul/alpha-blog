@@ -1,5 +1,6 @@
 <h1 class="text-center">All Alpha-Categories</h1>
 <div class="text-center">
+  <%= will_paginate %>
   <% @categories.each do |category| %>
     <ul class="listing">
       <div class="row">
@@ -11,4 +12,5 @@
       </div>
     </ul>
   <% end %>
+  <%= will_paginate %>
 </div>
