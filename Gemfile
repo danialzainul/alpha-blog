@@ -29,6 +29,9 @@ gem 'bcrypt', '3.1.7'
 gem 'will_paginate', '3.1.0'
 gem 'bootstrap-will_paginate'
 
+# Allows the use of assert_template for testing
+gem 'rails-controller-testing'
+
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
 
