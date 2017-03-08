@@ -29,6 +29,9 @@ gem 'bcrypt', '3.1.7'
 gem 'will_paginate', '3.1.0'
 gem 'bootstrap-will_paginate'
 
+# Use Font Awesome sass gem for adding icons
+gem 'font-awesome-sass', '4.6.2'
+
 # Allows the use of assert_template for testing
 gem 'rails-controller-testing'
 
